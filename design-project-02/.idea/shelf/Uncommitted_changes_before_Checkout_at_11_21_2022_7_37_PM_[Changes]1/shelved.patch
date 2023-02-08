@@ -1,0 +1,39 @@
+Index: src/ExportData.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class ExportData implements Actions{\r\n    User user;\r\n\r\n    public ExportData(User user) {\r\n        this.user = user;\r\n    }\r\n\r\n    @Override\r\n    public void executeAction() {\r\n        user.ExportData();\r\n    }\r\n\r\n    @Override\r\n    public void undoAction() {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ExportData.java b/src/ExportData.java
+--- a/src/ExportData.java	
++++ b/src/ExportData.java	
+@@ -12,6 +12,6 @@
+ 
+     @Override
+     public void undoAction() {
+-
++        
+     }
+ }
+Index: src/DBHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.IOException;\r\nimport java.util.ArrayList;\r\n\r\n/**\r\n * @author Laxmi Poudel\r\n */\r\npublic interface DBHandler\r\n{\r\n    public ArrayList<String[]> readFile(String fileName) throws IOException;\r\n\r\n    public void writeFile(String fileName, ArrayList<String[]> data) throws IOException;\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/DBHandler.java b/src/DBHandler.java
+--- a/src/DBHandler.java	
++++ b/src/DBHandler.java	
+@@ -1,9 +1,7 @@
+ import java.io.IOException;
+ import java.util.ArrayList;
+ 
+-/**
+- * @author Laxmi Poudel
+- */
++
+ public interface DBHandler
+ {
+     public ArrayList<String[]> readFile(String fileName) throws IOException;

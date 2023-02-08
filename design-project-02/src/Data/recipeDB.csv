@@ -1,0 +1,6 @@
+number,name,instructions,ingredients,ingredients_stock
+0,turkey_sandwich,put turkey and lettuce in between two pieces of bread,[turkey bread lettuce],[1 2 1]
+1,french_fries,cut potatoes and fry,[potato],[2]
+2,omelette,mix eggs with ingredients and cook on low heat,[egg cheese],[2 1]
+3,peanutbutter_and_jelly,mix peanutbutter and jelly and put in between two pieces of bread,[peanutbutter jelly bread],[1 1 2]
+4,toast,put bread in toaster,[bread],[2]

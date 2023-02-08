@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/abiel2020/Downloads/opencsv-5.7.0.jar",
+        "/Users/abiel2020/Downloads/junit-platform-console-standalone-1.9.1.jar",
+        "/Users/abiel2020/Downloads/commons-lang3-3.12.0.jar",
+        "/Users/abiel2020/Downloads/json-simple-1.1.1.jar"
+    ]
+}
